@@ -6,7 +6,7 @@ import com.revrobotics.CANSparkMax;
 import com.revrobotics.CANSparkMaxLowLevel;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
-public class Motor extends SubsystemBase {
+public class Motor {
     //Make a TalonSRX motor with an id of 10 and another with an id of 11
 
     private TalonSRX talon1 = new TalonSRX((10));
